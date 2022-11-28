@@ -27,7 +27,7 @@ todoForm.addEventListener('submit', async (e) => {
     // call completeTodo
     completeTodo();
     // swap out todo in array
-    todoForm.requestFullscreen();
+    todoForm.reset();
     // call displayTodos
     displayTodos();
 });
